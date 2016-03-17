@@ -4,7 +4,6 @@
   var body = document.body,
       html = document.documentElement,
       heightMessagers = {},
-      debouncedHeightMessager,
       previousHeight;
 
   function heightMessager(){
